@@ -1,3 +1,14 @@
+/**
+ * For building the encrypted string:
+ * Take every 2nd char from the string, then the other chars,
+ * that are not every 2nd char, and concat them as new String.
+ * Do this n times!
+ * For both methods:
+ * If the input-string is null or empty return exactly this value!
+ * If n is <= 0 then return the input text.
+ */
+
+
 function encrypt(text, n) {
   if (text === null) return null;
   let result = text;
